@@ -1,7 +1,7 @@
 #ifndef BOOKS_HPP
 #define BOOKS_HPP
 
-#define BOOK(x, y, z) {#x, #y, #z}
+#define BOOK(x, y) {#x, #y}
 #define TOTAL_BOOKS 66
 
 #include <string>
@@ -13,7 +13,6 @@
 struct bookmark
 {
     std::string actual_name;
-    std::string short_name;
     std::string file_name;
 };
 
