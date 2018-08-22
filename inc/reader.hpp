@@ -6,15 +6,6 @@
 namespace reader
 {
     /**
-     * @brief      Determines if a given string is the name of a Bible book.
-     *
-     * @param[in]  book_name  The book name
-     *
-     * @return     True if it is book name, False otherwise.
-     */
-    bool is_book_name(std::string book_name);
-
-    /**
      * @brief      Attempts to coerce the given string of the name of a book of
      * the Bible into the format used in the data files.
      *
@@ -37,14 +28,12 @@ namespace reader
         std::string verse);
 
     /**
-     * @brief      Gets an entire Bible chapter given the book and chapter.
+     * @brief      Prints an entire Bible chapter given the book and chapter.
      *
      * @param[in]  book     The book
      * @param[in]  chapter  The chapter
-     *
-     * @return     The bible chapter
      */
-    std::string get_bible_chapter(std::string book, std::string chapter);
+    void print_bible_chapter(std::string book, std::string chapter);
 }
 
 #endif

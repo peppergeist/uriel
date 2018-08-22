@@ -12,7 +12,7 @@
  */
 struct bookmark
 {
-    std::string actual_name;
+    std::string prose_name;
     std::string file_name;
 };
 
