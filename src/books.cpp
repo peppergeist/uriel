@@ -3,6 +3,7 @@
 bookmark book_list[] =
 {
     BOOK(gen, genesis),
+    BOOK(exo, exodus),
     BOOK(exod, exodus),
     BOOK(lev, leviticus),
     BOOK(num, numbers),
@@ -21,9 +22,11 @@ bookmark book_list[] =
     BOOK(esth, esther),
     BOOK(job, job),
     BOOK(ps, psalms),
+    BOOK(psalm, psalms),
     BOOK(prov, proverbs),
     BOOK(eccl, ecclesiastes),
     BOOK(song, song-of-solomon),
+    BOOK(songs, song-of-solomon),
     BOOK(isa, isaiah),
     BOOK(jer, jeremiah),
     BOOK(lam, lamentations),
